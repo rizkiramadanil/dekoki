@@ -1,0 +1,42 @@
+name: dekoki
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  google_fonts: ^2.3.1
+  http: ^0.13.4
+  provider: ^6.0.3
+  get: ^4.6.1
+  intl: ^0.17.0
+  sqflite: ^2.0.2
+  shared_preferences: ^2.0.13
+  android_alarm_manager_plus: ^2.0.3
+  flutter_local_notifications: ^5.0.0
+  rxdart: ^0.26.0
+  fancy_bottom_navigation: ^0.3.3
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter_launcher_name:
+  name: "Dekoki"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
